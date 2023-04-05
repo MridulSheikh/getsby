@@ -21,6 +21,7 @@ const Layout = ({ children }) => {
         <div className="flex gap-x-4 py-5">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/blog">Blog</Link>
         </div>
         <main className=" max-w-screen-md mx-auto">{children}</main>
         <footer></footer>
